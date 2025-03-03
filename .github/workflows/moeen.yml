@@ -22,8 +22,8 @@ jobs:
 
       - name: Build Docker Image
         run: |
-          docker build -t your-dockerhub-username/your-image-name:latest .
+          docker build -t mo3een/tony-andre:latest .
 
       - name: Push Docker Image to DockerHub
         run: |
-          docker push your-dockerhub-username/your-image-name:latest
+          docker push mo3een/tony-andre:latest
